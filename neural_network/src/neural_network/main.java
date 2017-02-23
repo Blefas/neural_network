@@ -8,7 +8,7 @@ public class main {
 		System.out.println(neurone1.getNb_entree());
 		double[] poids = neurone1.getPoids();
 		for (int i=0;i<poids.length;i++){
-			System.out.println("Poids de l'entrée "+i+" = "+poids[i]);
+			System.out.printf("Poids de l'entrée %d = %f", i, poids[i]);
 		}
 		
 		network test = new network(3,truc);
